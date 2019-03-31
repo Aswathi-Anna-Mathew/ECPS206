@@ -17,10 +17,10 @@ int t = 0;              //variable used for counting the seconds, to get the cou
 
 char* buff = "";
 
-const char* ssid     = "UCInet Mobile Access";         // The SSID (name) of the Wi-Fi network you want to connect to
+const char* ssid     = "";         // The SSID (name) of the Wi-Fi network you want to connect to
 const char* password = "";     // The password of the Wi-Fi network
 
-const char* server_ip = "169.234.34.161";     //IP address of the Raspberry Pi
+const char* server_ip = "";     //IP address of the Raspberry Pi
 unsigned int localUdpPort = 50000;  // local port to listen on
 
 int sec = 0;        //variable for counting the seconds, to decide when to send data to the server 
